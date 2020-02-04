@@ -13,6 +13,15 @@
             <h1>Sign-in<br />
             </h1>
             <table style="width: 100%;">
+
+                <tr>
+                    <td style="width: 192px">
+            <asp:Label ID="CustomerID" runat="server" Text="CustomerID"></asp:Label>
+                    </td>
+                    <td><asp:TextBox ID="txtCutomerID" runat="server" Width="283px"></asp:TextBox>
+                    </td>
+                </tr>
+
                 <tr>
                     <td style="width: 192px">
             <asp:Label ID="lblEMail" runat="server" Text="E Mail Address"></asp:Label>

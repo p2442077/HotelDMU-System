@@ -28,11 +28,68 @@
                     </tr>
                     <tr>
                         <td style="width: 182px">
-            <asp:Label ID="lblConfirm" runat="server" Text="Confirm Password"></asp:Label>
+                            <asp:Label ID="lblConfirm" runat="server" Text="Confirm Password"></asp:Label>
                         </td>
-                        <td><asp:TextBox ID="txtPassword2" runat="server" TextMode="Password" width="318px"></asp:TextBox>
+                        <td>
+                            <asp:TextBox ID="txtPassword2" runat="server" TextMode="Password" width="318px"></asp:TextBox>
                         </td>
+
                     </tr>
+                    <tr>
+                        <td style="width: 182px">
+                            <asp:Label ID="FirstName" runat="server" Text="First Name"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:TextBox ID="txtFirstName" runat="server" TextMode="SingleLine" width="318px"></asp:TextBox>
+                        </td>
+
+                    </tr>
+
+                     </tr>
+                    <tr>
+                        <td style="width: 182px">
+                            <asp:Label ID="SureName" runat="server" Text="Sure Name"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:TextBox ID="txtSureName" runat="server" TextMode="SingleLine" width="318px"></asp:TextBox>
+                        </td>
+
+                    </tr>
+
+                     </tr>
+                    <tr>
+                        <td style="width: 182px">
+                            <asp:Label ID="PhoneNumber" runat="server" Text="Phone Number"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:TextBox ID="txtPhoneNumber" runat="server" TextMode="number" width="318px"></asp:TextBox>
+                        </td>
+
+                    </tr>
+
+                   <tr>
+                        <td style="width: 182px">
+                            <asp:Label ID="Address" runat="server" Text="Address"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:TextBox ID="txtAddress" runat="server" TextMode="SingleLine" width="318px"></asp:TextBox>
+                        </td>
+
+                    </tr>
+                    
+
+                     </tr>
+                    <tr>
+                        <td style="width: 182px">
+                            <asp:Label ID="DateOfBirth" runat="server" Text="Date of Birth"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:TextBox ID="txtDateofBirth" runat="server" TextMode="number" width="318px"></asp:TextBox>
+                        </td>
+
+                    </tr>
+                    
+                    
                 </table>
                 <br />
                 <asp:Label ID="lblError" runat="server"></asp:Label>
